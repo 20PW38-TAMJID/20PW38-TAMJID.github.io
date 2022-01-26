@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 217, 255);
+    font-family: "Sora";
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.container, .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.choice {
+    display: inline-block;
+    position: relative;
+    padding: 1em;
+}
+.choice .img-shadow{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    display: none;
+}
+.choice:hover .img-shadow{
+    display: inline;
+}
